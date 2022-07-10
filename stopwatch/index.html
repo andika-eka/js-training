@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andika Stopwatch</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <div class="container-center">
+        <div class="title">
+            <h1>Andika's stopwatch</h1>
+        </div>
+        <div class="time">
+            <p id="millisec"> 00 </p>
+            <p><span id="minutes">00</span> : <span id="seconds">00</span></p>
+        </div>
+        <div class="btn-group">
+            <button class="time-button" id="stop">STOP</button>
+            <button class="time-button" id="start">START </button>
+            <button class="time-button" id="reset">RESET</button>
+        </div>
+        <!-- <hr> -->
+        <div class="btn-group">
+            <button id="split">SPLIT </button>
+            <button id="lap">LAP</button>
+        </div>
+
+        <div id="record">
+        </div>
+    </div>
+
+    <script src="stopwatch.js"></script>
+</body>
+
+</html>
